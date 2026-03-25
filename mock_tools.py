@@ -1,13 +1,41 @@
 import random
 
 ETF_CANDIDATES = [
-    {"ticker": "KODEX KRX 300", "price_range": (10000, 18000)},
-    {"ticker": "KODEX 200", "price_range": (25000, 40000)},
-    {"ticker": "KODEX 미국S&P500", "price_range": (50000, 90000)},
-    {"ticker": "KODEX 코스피대형주", "price_range": (18000, 35000)},
-    {"ticker": "KODEX 반도체", "price_range": (12000, 30000)},
-    {"ticker": "KODEX 철강", "price_range": (9000, 20000)},
-    {"ticker": "KODEX 인도Nifty50", "price_range": (70000, 120000)},
+    {
+        "ticker": "KODEX KRX 300",
+        "path": "./etf/kodex krx300",
+        "price_range": (10000, 18000),
+    },
+    {
+        "ticker": "KODEX 200",
+        "path": "./etf/kodex200",
+        "price_range": (25000, 40000),
+    },
+    {
+        "ticker": "KODEX 미국S&P500",
+        "path": "./etf/kodex미국S&P500",
+        "price_range": (50000, 90000),
+    },
+    {
+        "ticker": "KODEX 코스피대형주",
+        "path": "./etf/kodex코스피대형주",
+        "price_range": (18000, 35000),
+    },
+    {
+        "ticker": "KODEX 반도체",
+        "path": "./etf/kodex반도체",
+        "price_range": (12000, 30000),
+    },
+    {
+        "ticker": "KODEX 철강",
+        "path": "./etf/kodex철강",
+        "price_range": (9000, 20000),
+    },
+    {
+        "ticker": "KODEX 인도Nifty50",
+        "path": "./etf/kodex인도nifty",
+        "price_range": (70000, 120000),
+    },
 ]
 
 
